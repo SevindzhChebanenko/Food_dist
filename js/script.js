@@ -60,13 +60,7 @@ function getTimeRemaining(endtime) {
         seconds = Math.floor((t / 1000) % 60)
     }
 
-    return {
-        'total': t, 
-        'days': days, 
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-    }
+    return {'total': t, days, hours, minutes, seconds}
 }
 
 function getZero(num) {
